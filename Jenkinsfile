@@ -15,7 +15,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'dotnet build WebApplication1.csproj --configuration Release'
+                sh 'dotnet build WebApplication1/WebApplication1.csproj --configuration Release'
             }
         }
 
